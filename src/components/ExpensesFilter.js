@@ -9,7 +9,11 @@ function ExpensesFilter(props) {
     <div className="p-2 m-3">
       <div className="d-flex justify-content-between">
         <label className="badge border ">Filter by year</label>
-        <select value={props.selected} onChange={dropdownChangeHandler}>
+        <select
+          className="rounded-pill"
+          value={props.selected}
+          onChange={dropdownChangeHandler}
+        >
           <option value="">ALL</option>
           <option value="2022">2022</option>
           <option value="2021">2021</option>
