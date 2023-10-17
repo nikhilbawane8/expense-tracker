@@ -35,7 +35,6 @@ function App(props) {
       return [expense, ...prevExpenses];
     });
   };
-
   return (
     <div className="container card m-5 expense-item">
       <NewExpense onAddExpense={addExpenseHandler} />
