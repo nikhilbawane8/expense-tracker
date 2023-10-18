@@ -7,12 +7,12 @@ import ExpenseDate from "./ExpenseDate";
 function ExpenseItem(props) {
   return (
     <li>
-      <div className="container ">
-        <div className="expense-item m-3">
+      <div className="container  ">
+        <div className="expense-item">
           <ExpenseDate date={props.date} />
-          <div className="ms-5 expense-item__description">
-            <h2 className=" badge border text-bg-primary">{props.title}</h2>
-            <div className="expense-item__price border btn btn-primary">
+          <div className="   expense-item__description">
+            <h2 className="ms-2 badge border text-bg-primary">{props.title}</h2>
+            <div className="expense-item__price me-2  border btn btn-primary">
               ${props.amount}
             </div>
           </div>
