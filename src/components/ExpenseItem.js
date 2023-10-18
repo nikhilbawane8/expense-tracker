@@ -11,9 +11,7 @@ function ExpenseItem(props) {
         <div className="expense-item ">
           <ExpenseDate date={props.date} />
           <div className="   expense-item__description">
-            <h2 className="ms-auto badge border text-bg-primary">
-              {props.title}
-            </h2>
+            <h2 className="ms-2 badge border text-bg-primary">{props.title}</h2>
             <div className="expense-item__price  border btn btn-primary">
               ${props.amount}
             </div>
