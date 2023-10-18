@@ -7,7 +7,7 @@ import ExpenseDate from "./ExpenseDate";
 function ExpenseItem(props) {
   return (
     <li>
-      <div className="container p-2 justify-content-evenly ">
+      <div className="justify-content-evenly ">
         <div className="expense-item ">
           <ExpenseDate date={props.date} />
           <div className="   expense-item__description">
