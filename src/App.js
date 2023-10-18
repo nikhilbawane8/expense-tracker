@@ -36,7 +36,7 @@ function App(props) {
     });
   };
   return (
-    <div className=" row m-0 expense-item">
+    <div className="container row  expense-item">
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
