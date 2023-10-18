@@ -11,7 +11,7 @@ const NewExpense = (props) => {
   };
 
   return (
-    <div className="card mt-3 ms-5  col-lg-6 col-md-12 col-sm-12 ">
+    <div className="card col-lg-6 col-md-12 col-sm-12 ">
       <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
     </div>
   );
