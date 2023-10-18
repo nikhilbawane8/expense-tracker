@@ -36,7 +36,7 @@ function App(props) {
     });
   };
   return (
-    <div className="container row d-flex justify-content-evenly m-5 expense-item">
+    <div className=" row m-0 expense-item">
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
